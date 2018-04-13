@@ -1,12 +1,10 @@
 // Must require the dotenv
-
 require("dotenv").config();
 
 // Imports the keys javascript file and stores it as a variable
 var keys = require("./keys.js");
 
 // Capture user commands and query
-
 var command = process.argv[2];
 var query = process.argv[3];
 
@@ -105,7 +103,6 @@ var movieThis = function(movieQuery) {
 }
 
 // User inputs that run the app
-
 if (command === "my-tweets") {
     myTweets();
 } else if (command === "spotify-this-song") {
@@ -142,8 +139,8 @@ if (command === "my-tweets") {
         }
     });
     
-} else if(command === undefined) { // use case where no command is given
+} else if(command === undefined) { // Scenario for when a command is not given
 	console.log("Please enter a valid ommand to run LIRI.")
-} else { // use case where command is given but not recognized
+} else { // Scenario when a command is given but not recognized
 	console.log("Command not recognized. Please try again.")
 }
