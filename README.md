@@ -104,7 +104,7 @@ require("dotenv").config();
 
    * This will show your last 20 tweets and when they were created in the terminal/bash window.
 
-![alt text](https://github.com/JustinGolshir/liri-node-app/blob/master/assets/screenshots/Tweets.jpg)
+![alt text](https://github.com/JustinGolshir/liri-node-app/blob/master/assets/screenshots/Tweets.png)
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
@@ -115,7 +115,7 @@ require("dotenv").config();
      * The album that the song is from
    * If no song is provided then the program will default to "The Sign" by Ace of Base.
 
-![alt text](https://github.com/JustinGolshir/liri-node-app/blob/master/assets/screenshots/Spotify.jpg)
+![alt text](https://github.com/JustinGolshir/liri-node-app/blob/master/assets/screenshots/Spotify.png)
 
 3. `node liri.js movie-this '<movie name here>'`
 
@@ -133,11 +133,11 @@ require("dotenv").config();
 
    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
-![alt text](https://github.com/JustinGolshir/liri-node-app/blob/master/assets/screenshots/OMDB.jpg)
+![alt text](https://github.com/JustinGolshir/liri-node-app/blob/master/assets/screenshots/OMDB.png)
 
 4. `node liri.js do-what-it-says`
 
     * LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. 
     * For example, Liri will run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
-![alt text](https://github.com/JustinGolshir/liri-node-app/blob/master/assets/screenshots/TextFile.jpg)
+![alt text](https://github.com/JustinGolshir/liri-node-app/blob/master/assets/screenshots/TextFile.png)
